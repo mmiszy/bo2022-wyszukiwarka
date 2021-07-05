@@ -1,0 +1,19 @@
+.map {
+  height: 100vh;
+}
+
+.markerBo {
+  filter: hue-rotate(165deg);
+}
+
+.markerZbo {
+  filter: hue-rotate(265deg);
+}
+
+.markerBoRejected {
+  opacity: 0.5;
+}
+
+.markerZboRejected {
+  opacity: 0.5;
+}

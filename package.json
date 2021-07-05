@@ -8,8 +8,21 @@
     "start": "next start"
   },
   "dependencies": {
+    "@types/bluebird": "3.5.35",
+    "@types/leaflet": "1.7.3",
+    "@types/node-fetch": "2.5.10",
+    "@types/react": "17.0.13",
+    "@types/react-dom": "17.0.8",
+    "@types/react-leaflet": "2.8.1",
+    "bluebird": "3.7.2",
+    "leaflet": "1.7.1",
     "next": "11.0.1",
+    "node-fetch": "2.6.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-leaflet": "3.2.0",
+    "react-query": "3.18.1",
+    "ts-node": "10.0.0",
+    "typescript": "4.3.5"
   }
 }
