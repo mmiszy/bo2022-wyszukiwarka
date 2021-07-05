@@ -1,5 +1,5 @@
 import { MapContainer, TileLayer, Marker, Popup, LayersControl, LayerGroup } from 'react-leaflet';
-import * as styles from './map.module.css';
+import styles from './map.module.css';
 
 import { useQuery } from 'react-query';
 import React, { useMemo } from 'react';
