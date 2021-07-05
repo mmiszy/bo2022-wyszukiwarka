@@ -95,7 +95,7 @@ export const Map = ({}: {}) => {
             <TileLayer url="https://cfm{s}.s-trojmiasto.pl/tiles/2016/{z}/{x}/{y}.jpg" s={getTrojmiastoPlCDNNumber} />
             <TileLayer
               url="https://mbtiles{s}.trojmiasto.pl/mbtiles.php?z={z}&x={x}&y={y}&t=streets"
-              s={getTrojmiastoPlCDNNumber}
+              {...{ s: getTrojmiastoPlCDNNumber }}
             />
           </LayerGroup>
         </LayersControl.BaseLayer>
