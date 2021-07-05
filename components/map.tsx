@@ -92,10 +92,13 @@ export const Map = ({}: {}) => {
         </LayersControl.BaseLayer>
         <LayersControl.BaseLayer name="Orotofotomapa">
           <LayerGroup>
-            <TileLayer url="https://cfm{s}.s-trojmiasto.pl/tiles/2016/{z}/{x}/{y}.jpg" s={getTrojmiastoPlCDNNumber} />
+            <TileLayer
+              url="https://cfm{s}.s-trojmiasto.pl/tiles/2016/{z}/{x}/{y}.jpg"
+              {...{ s: getTrojmiastoPlCDNNumber }}
+            />
             <TileLayer
               url="https://mbtiles{s}.trojmiasto.pl/mbtiles.php?z={z}&x={x}&y={y}&t=streets"
-              {...({ s: getTrojmiastoPlCDNNumber } as any)}
+              {...{ s: getTrojmiastoPlCDNNumber }}
             />
           </LayerGroup>
         </LayersControl.BaseLayer>
